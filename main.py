@@ -20,11 +20,11 @@ def option():
         else:
             print("Invalid option. Please try again.")
         
-        
+        # Got the exit choice idea from youtube
         exit_choice = input("Do you want to exit? (yes/no): ")
         if exit_choice.lower() == 'yes':
             break
-    
+    # same with this one got the idea from youtube
 if __name__ == "__main__":
     option()
 
